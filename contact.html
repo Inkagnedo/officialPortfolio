@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 <body>
-    <nav>
+    <nav id="nav">
         <div class="nav-wrapper">
           <a href="#" class="brand-logo">Wilmar Celestin</a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -19,7 +19,40 @@
           </ul>
         </div>
     </nav>
-
-
+    <div id="container" class="container">
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="name" placeholder="Name" type="text" class="validate">
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s8">
+                <textarea id="message" cols="60" rows="30"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s3">
+                <button id="send" class="btn waves-effect waves-light" type="submit" name="action">Send</button>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Linkedin</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">GitHub</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2020 Copyright 
+          </div>
+        </div>
+      </footer>
 </body>
 </html>

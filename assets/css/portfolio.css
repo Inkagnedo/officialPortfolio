@@ -1,0 +1,16 @@
+nav {
+    padding: 0px 200px 0px 200px;
+}
+
+body {
+    background-image: url(../images/mosaic/mosaic.png);
+}
+
+#container {
+    margin-top: 100px;
+    max-width: 80%;
+    background-color: burlywood;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+}
