@@ -1,16 +1,27 @@
-nav {
+#nav {
+    background-color: black;
     padding: 0px 200px 0px 200px;
 }
 
 body {
+    color: whitesmoke;
     background-image: url(../images/mosaic/mosaic.png);
 }
 
 #container {
-    margin-top: 100px;
+    margin-top: 165px;
+    margin-bottom: 165px;
     max-width: 80%;
-    background-color: burlywood;
+    background-color: black;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 0 0 10px 2px;
+    box-shadow: 0 0 200px 30px whitesmoke;
+}
+
+#footer {
+    background-color: black;
+}
+
+#footerLinks {
+    padding-right: 15px;
 }

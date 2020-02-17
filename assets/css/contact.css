@@ -12,12 +12,13 @@ div.row {
 }
 
 #container {
-    margin-top: 100px;
+    margin-top: 150px;
+    margin-bottom: 100px;
     max-width: 80%;
     background-color: whitesmoke;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 0 0 10px 2px;
+    box-shadow: 0 0 100px 50px;
 }
 
 #send {
@@ -25,8 +26,12 @@ div.row {
     border-radius: 10px;
 }
 
-.page-footer {
-  height: 50px;
+#footer {
+  background-color: black;
+}
+
+#footerLinks {
+    padding-right: 15px;
 }
 
 
