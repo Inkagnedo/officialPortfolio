@@ -1,16 +1,23 @@
-nav {
-    background-color: whitesmoke;
+#nav {
+    background-color: black;
     padding: 0px 200px 0px 200px;
 }
 
-body {
+#main{
+    flex: 1 0 auto;
+}
+
+#body {
     background-image: url(../images/dot-grid/dot-grid.png);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 #container {
-    margin-top: 100px;
+    margin: 100px 0px 100px 0px;
     max-width: 80%;
-    background-color: white;
+    background-color: whitesmoke;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0 0 10px 2px;
